@@ -1,0 +1,33 @@
+{
+  "name": "generators",
+  "version": "1.0.0",
+  "description": "Working with generators and co.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=generators:* node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qaaj/generators.git"
+  },
+  "keywords": [
+    "co.js",
+    "generators",
+    "ES7"
+  ],
+  "author": "Jan Jorissen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qaaj/generators/issues"
+  },
+  "homepage": "https://github.com/Qaaj/generators#readme",
+  "dependencies": {
+    "babel-core": "^6.5.2",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "co": "^4.6.0",
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0"
+  }
+}
